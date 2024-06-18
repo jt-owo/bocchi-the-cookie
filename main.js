@@ -6,8 +6,9 @@ if (!BocchiTheCookie) var BocchiTheCookie = {
     init: function () {
 
         // Cookie replacements.
-        // TODO: Replace gold cookie
-        Game.Loader.Replace('perfectCookie.png', this.dir + '/bocchi.png');
+        // TODO: Add wrath cookies.
+        Game.Loader.Replace('perfectCookie.png', this.dir + '/bocchi_cookie.png');
+        Game.Loader.Replace('goldCookie.png', this.dir + '/bocchi_cookie_gold.png');
         
         // Wrinkler replacements.
         // TODO: maybe add more bocchi characters as wrinklers.
